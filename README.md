@@ -5,14 +5,14 @@ Launch using Binder to view interactive slides
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brendanconnolly/jupyter-test-automation/main?filepath=Slides.ipynb)
 
-*note: Selenium example will not work on binder
+*note: Selenium example will not work on binder*
 
 ## Language Examples
 
 Inside each language folder there is a `Dockerfile` and `docker-compose.yml`
 
 To run the examples from the console run `docker-compose up --build`
-*the `--build` flag is only required the first time
+*the `--build` flag is only required the first time*
 
 
 ## Use with Selenium
