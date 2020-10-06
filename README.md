@@ -7,6 +7,8 @@ Launch using Binder to view interactive slides
 
 *note: Selenium example will not work on binder*
 
+You can also view the slides source notebook file [here](https://github.com/brendanconnolly/jupyter-test-automation/blob/main/binder/Slides.ipynb) 
+
 ## Language Examples
 
 Inside each language folder there is a `Dockerfile` and `docker-compose.yml`
