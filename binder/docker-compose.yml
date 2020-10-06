@@ -1,0 +1,20 @@
+version: '3'
+services:
+  notebook:
+    build: .
+    container_name: automation_notebooks
+    environment: 
+      - USE_HUB=true
+      - HUB_ADDRESS=hub
+    ports:
+      - "8888:8888"
+    volumes: 
+      - .:/home/jovyan/work
+  hub:
+    image: selenium/hub
+    ports:
+      - "4444:4444"
+    expose:
+      - "5555"
+
+  

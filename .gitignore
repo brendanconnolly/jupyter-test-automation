@@ -1,0 +1,4 @@
+.DS_Store
+.chrome_data
+.ipynb_checkpoints
+*checkpoint.ipynb
