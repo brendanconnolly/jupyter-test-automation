@@ -17,7 +17,7 @@ To run the examples from the console run `docker-compose up --build`
 
 ## Use with Selenium
 
-For exploratory testing purposes the browsers a launched without the headless options.
+For exploratory testing purposes the browsers are launched without the headless options.
 
 To be able to interact with the browser and run the notebooks inside a docker container an instance of Selenium Grid is required. 
 
