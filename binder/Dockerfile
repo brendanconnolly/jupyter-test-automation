@@ -7,8 +7,8 @@ USER $NB_UID
 ENV PATH $PATH:${HOME}/.npm-global/bin
 RUN npm install  webdriverio
 RUN npm install  axios
-ADD binder/Slides.ipynb .
-ADD binder/Slides.ipynb ./work/Slides.ipynb
+ADD Slides.ipynb .
+ADD Slides.ipynb ./work/Slides.ipynb
 
 #uncomment to use jupyter hub
 #CMD ["jupyter", "lab", "--ip=0.0.0.0"]
